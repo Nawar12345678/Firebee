@@ -1,0 +1,88 @@
+.navbar-container {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 73px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    opacity: 1;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    width: 121px;
+    height: 30px;
+    position: absolute;
+    top: 35px;
+    left: 80px;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu {
+    position: absolute;
+    width: 466px;
+    height: 27px;
+    top: 36px;
+    left: 301px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    opacity: 1;
+  }
+  
+  .buy-now-button {
+    position: absolute;
+    width: 130px;
+    height: 55px;
+    top: 17px;
+    left: 80%;
+    opacity: 1;
+  }
+  
+  .buy-now-button button {
+    width: 100%;
+    height: 100%;
+    border-radius: 32.5px 32.5px 32.5px 32.5px;
+    background-color: #00c853; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 17px;
+    left: 93%;
+    opacity: 1;
+    background-color: #4B93D0;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-icon img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  
+  

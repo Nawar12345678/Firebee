@@ -1,0 +1,43 @@
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 74px;
+    left: 0px;
+    gap: 0;
+    opacity: 1;
+    margin-top: -15px;
+  }
+  
+  .image-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 1; 
+  }
+
+  .overlay-text {
+    position: absolute;
+    width: 464px;
+    height: 29px;
+    top: 32px;
+    left: 450px;
+    opacity: 1; 
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #FFFFFF; 
+  }
+  

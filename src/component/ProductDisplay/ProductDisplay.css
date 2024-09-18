@@ -1,0 +1,275 @@
+.product-container {
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    top: 150px;
+    background: #F6F6F6;
+    gap: 0px;
+    opacity: 1;
+  }
+  
+  .logos {
+    position: absolute;
+    top: 40px;
+    left: 113px;
+    display: flex;
+    flex-direction: space-between;
+    gap: 20px;
+  }
+  
+  .logo-img {
+    width: 112px;
+    height: 112px;
+    opacity: 1;
+  }
+  
+  .cros-img {
+    position: absolute;
+    width: 628px;
+    height: 392px;
+    top: 150px;
+    left: 98px;
+    opacity: 1;
+  }
+  
+  .cros-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .small-cros-images {
+    position: absolute;
+    top: 572px;
+    left: 102px;
+    display: flex;
+    gap: 20px;
+  }
+
+  
+  .small-img {
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    object-fit: cover;
+  }
+
+  
+.icon-text-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 700px;
+    left: 80px;
+    width: 32%;
+    height: 100px;
+  }
+  
+  .icon-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon-text {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .icon-img {
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+  }
+  
+  .icon-text-paragraph {
+    width: 158px;
+    height: auto;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #3F3631;
+    padding: 10px;
+  }
+  
+
+.left-section {
+    position: absolute;
+    top: 5px;
+    left: 680px;
+    width: 40%;
+    height: 110px;
+    gap: 0px;
+    opacity: 1;
+   gap: 100px;;
+
+  }
+  
+  .rectangle {
+    width: 473px;
+    height: 110px;
+    margin-left: 70px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .rectangle-title {
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 154px;
+    margin: 0;
+    color: #3F3631;
+
+  }
+  
+  .rating-stars {
+    width: 139px;
+    height: 16px;
+    top: 10px;
+    left: 791px;
+    opacity: 1;
+    margin-top: -40px;;
+  }
+  
+  .rectangle-text {
+    width: 573px;
+    height: 24px;
+    top: 30px;
+    left: 791px;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    opacity: 1;
+    margin-top: 15px;
+    color: #3F3631;
+
+  }
+  
+
+.second-rectangle {
+    width: 90%;
+    height: 300px;
+    top: 383px;
+    left: 701px;
+    gap: 20px;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px  solid  linear-gradient(180deg, #2D5ECE 0%, #9F4EA1 100%);;
+    padding: 20px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-left: 70px;
+
+  }
+  .starter-text{
+    display: flex;
+    align-items: center;
+  }
+
+  .starter-text h1{
+width: 221px;
+height: 36px;
+top: 353px;
+left: 817px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #3F3631;
+margin-right: 20px;
+
+
+  }
+
+  .oldprice{
+width: 195px;
+height: 36px;
+top: 353px;
+left: 1206px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  
+  .gradient-button {
+    width: 244px;
+    height: 30px;
+    top: 394px;
+    left: 817px;
+    gap: 0px;
+    border-radius: 100px 100px 100px 100px;
+    background: linear-gradient(90deg, #A34D9F 0%, #275FD0 100%);
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .feature-list {
+    margin-top: 20px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .check-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .feature-item p {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: left;
+    margin: 0;
+  }
+
+.button-container {
+width: 548px;
+height: 79px;
+top: 299px;
+left: 250px;
+gap: 0px;
+border-radius: 48.5px 48.5px 48.5px 48.5px;
+opacity: 0px;
+ background: #07C961;
+ margin-top: 10px;
+ margin-left: 70px;
+
+  }
+ .button-container img{
+    margin-left: 400px;
+    margin-top: 20px;
+
+  }
+  
+.logos-container .logos {
+    width: 580px;
+    height: 80px;
+    top: 980px;
+    left: 5px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+  }
